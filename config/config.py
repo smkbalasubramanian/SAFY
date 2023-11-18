@@ -1,0 +1,14 @@
+"""
+ KEYS
+"""
+
+api_key = "AIzaSyDWAbze-K7QGZSOhxQ6-aJJiKaHZwMA1Ew"
+
+
+"""
+DB DETAILS
+"""
+
+MONGO_DB_CLIENT = "mongodb://localhost:27017/"
+MONGO_DB_NAME = "SAFY_TEST"
+MONGO_DB_COLLECTION = "SAFY_COLLECTION_TEST"
