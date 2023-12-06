@@ -133,38 +133,3 @@ if not id == '':
 
 
     con.close()
-
-# You can add more options and customize the content based on your needs
-
-
-# channel_ids = [
-#     'UChtI4Ghi9nmZIvjlarhsmiA',
-#     'UCQicFsqAIVpMX0gATlrPyow'
-# ]
-#id='UCKFIBM4IAxQfc71AZqrPX6g'
-#id = 'UCGo5uT3qxwsSidWL_j-YDcw'
-#id = 'UCQicFsqAIVpMX0gATlrPyow'
-#id = 'UCueYcgdqos0_PzNOq81zAFg'
-#id = 'UChtI4Ghi9nmZIvjlarhsmiA'
-#id = 'UCQicFsqAIVpMX0gATlrPyow'
-
-
-# ------------------------------------------------------------------------------------------------
-# channel_data_json = channel_info(id)
-# channel_video_json = get_video_details_json(id,channel_data_json)
-# #data = json.loads(mongodb_json)
-# mdc = mongo_db_connection()
-# mdc.insert_one(channel_video_json)
-# print("Database insertes into MongoDB")
-# for channel_video_json in mdc.find():
-#     del channel_video_json['_id']
-#     #print(json.dumps(channel_video_json, indent=4))
-# data_from_mondo = [channel for channel in mdc.find({}, {'_id': False})]
-# #print(data_from_mondo)
-# cursor = sql_connecion()
-# d = migrate_data_to_sql(cursor[0],cursor[1],channel_video_json)
-# cursor[1].close()
-# -------------------------------------------------------------------------------------------------
-
-# Print a success message
-# print('Data migrated to SQL data warehouse successfully!')
